@@ -19,7 +19,7 @@ Logo depois um processo filho é criado
 O processo pai grava (escreve) no pipe as mensagens ("Oi" e "Ola")
  - usando a função "write"
 
-O processo filho lê a mensagem do pipe e a grava (escreve) no standard output 
+O processo filho lê a mensagem do pipe e a grava (escreve) na saída padrão (standard output) 
  - usando a função "read"
 
 ```
