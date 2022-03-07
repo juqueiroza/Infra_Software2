@@ -11,12 +11,16 @@ Pipe é um meio de comunicação entre dois ou mais processos relacionados ou in
 ```bash
 
 Uma pipa é criada 
+ - usando a função pipe()
 
-Logo depois um processo filho é criado usando fork()
+Logo depois um processo filho é criado 
+ - usando fork()
 
 O processo pai grava (escreve) no pipe as mensagens ("Oi" e "Ola")
+ - usando a função "write"
 
 O processo filho lê a mensagem do pipe e a grava (escreve) no standard output 
+ - usando a função "read"
 
 ```
 
