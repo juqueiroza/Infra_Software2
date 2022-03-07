@@ -16,7 +16,8 @@ Uma pipa é criada
 Logo depois um processo filho é criado 
  - usando fork()
 
-O processo pai grava (escreve) no pipe as mensagens ("Oi" e "Ola")
+O processo pai grava (escreve) no pipe as mensagens ("Oi" e "Ola") 
+ - que foram armazenadas em uma variavel tipo char[][] - (ex usado no código: char writemes[2][15] = {"Oi", "Ola"})
  - usando a função "write"
 
 O processo filho lê a mensagem do pipe e a grava (escreve) na saída padrão (standard output) 
