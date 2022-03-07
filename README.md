@@ -12,11 +12,11 @@ Pipe é um meio de comunicação entre dois ou mais processos relacionados ou in
 
 Uma pipa é criada 
 
-Logo depois um processo filho é criado 
+Logo depois um processo filho é criado usando fork()
 
-O processo pai grava (escreve) no pipe
+O processo pai grava (escreve) no pipe as mensagens ("Oi" e "Ola")
 
-O processo filho lê a mensagem do pipe e a grava (escreve) na saída padrão (standard output)
+O processo filho lê a mensagem do pipe e a grava (escreve) no standard output 
 
 ```
 
